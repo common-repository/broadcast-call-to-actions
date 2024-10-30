@@ -1,0 +1,63 @@
+/*
+* CodeMirror Syntax Highlighting
+*/
+
+.layout-inputs .CodeMirror {
+   border-radius: 2px;
+   padding: 8px;
+   background: #f7f7f7;
+   color: #999;
+   line-height: 1.3;
+   height: auto;
+}
+   .layout-inputs .CodeMirror pre{
+      font-size: 14px;
+      color: #666;
+   }
+   .CodeMirror-linenumber{
+	   color: #c7c7c7 !important;
+   }
+   
+   .layout-inputs .cm-s-pastel-on-dark.CodeMirror{ /* Bkg color */
+      background: #333;
+   }
+   .layout-inputs .CodeMirror-gutters{ /* Line Number color */
+      background: #fff;
+      border-right: 1px solid #efefef;
+   }
+   .layout-inputs .CodeMirror pre{
+      font-size: 13px;
+   }
+   .layout-inputs .CodeMirror-scroll {
+     overflow-y: hidden;
+     overflow-x: auto;
+   }
+   
+   
+   .layout-inputs .cm-tag{ /* <li> <h2> html elements */ 
+      color: #0a4b83 !important;
+   }
+   .layout-inputs .cm-string{  /* Elements in " " */ 
+      color: #d14 !important;
+   }
+   .layout-inputs .cm-attribute{ /* class names */
+      color: #008080 !important;
+   }
+   .layout-inputs .cm-keyword{ /* if, array, echo */
+      color: #ae5fb3 !important;
+   }
+   .layout-inputs span.CodeMirror-matchingbracket{
+      color: #ff0000 !important;
+   }
+   .layout-inputs .CodeMirror span.cm-meta{ /* <?php */
+      color: #999;
+   }
+   .layout-inputs .CodeMirror span.cm-variable{ /* Function names */
+      color: #111;
+      font-weight: 500;
+      padding: 0 1px;
+   }
+  .layout-inputs .CodeMirror span.cm-number{ /* Numbers */
+      color: #009999 !important;
+   }
+   

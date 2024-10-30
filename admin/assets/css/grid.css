@@ -1,0 +1,28 @@
+.one-third,
+.two-third,
+.one-half,
+.full-column{
+   float: left;
+   padding: 0 20px 0 0;
+}
+.one-third{
+   width: 33.333%;
+}
+.two-third{
+   width: 66.666%;
+}
+.one-half{
+   width: 50%;
+}
+.full-column{
+   width: 100%;
+}
+
+@media screen and (max-width: 960px){
+	.one-third,
+	.two-third,
+	.one-half{
+		width: 100%;
+		padding: 0;	
+	}
+}
